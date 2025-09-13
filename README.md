@@ -37,4 +37,20 @@ The goal is to demonstrate practical **model optimization and deployment techniq
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
+
+llm-inference-optimizer/
+│── src/
+│ ├── baseline_pytorch.py # Run baseline GPT-2 with PyTorch
+│ ├── export_onnx.py # Export model to ONNX
+│ ├── bench_onnx.py # Run ONNX inference benchmark
+│ ├── bench_onnx_int8.py # Quantize & benchmark INT8 model
+│
+│── results/
+│ ├── baseline_pytorch.csv # PyTorch results
+│ ├── onnx_baseline.csv # ONNX results
+│ ├── onnx_int8.csv # ONNX INT8 results
+│
+│── models/ # (ignored) contains exported ONNX models
+│── requirements.txt
+│── README.md
