@@ -40,6 +40,7 @@ The goal is to demonstrate practical **model optimization and deployment techniq
 ## 📂 Project Structure
 
 llm-inference-optimizer/
+
 │── src/
 │ ├── baseline_pytorch.py # Run baseline GPT-2 with PyTorch
 │ ├── export_onnx.py # Export model to ONNX
