@@ -39,6 +39,7 @@ The goal is to demonstrate practical **model optimization and deployment techniq
 
 ## 📂 Project Structure
 
+'''
 llm-inference-optimizer/
 
 │── src/
@@ -55,3 +56,4 @@ llm-inference-optimizer/
 │── models/ # (ignored) contains exported ONNX models
 │── requirements.txt
 │── README.md
+'''
