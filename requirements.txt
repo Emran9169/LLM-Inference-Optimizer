@@ -1,0 +1,7 @@
+torch
+transformers
+onnx
+onnxruntime
+optimum[onnxruntime]
+numpy
+pandas
